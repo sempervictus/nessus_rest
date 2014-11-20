@@ -4,9 +4,9 @@ require File.expand_path('../lib/nessus_rest/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "nessus_rest"
-  gem.version       = NessusRest::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.version       = NessusREST::VERSION
+  gem.summary       = %q{Interact with Nessus REST API}
+  gem.description   = %q{Wrappers and convenience methods around Nestful REST queries}
   gem.license       = "MIT"
   gem.authors       = ["RageLtMan"]
   gem.email         = "rageltman [at] sempervictus"
