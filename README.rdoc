@@ -1,0 +1,27 @@
+= nessus_rest
+
+* {Homepage}[https://rubygems.org/gems/nessus_rest]
+* {Documentation}[http://rubydoc.info/gems/nessus_rest/frames]
+* {Email}[mailto:rageltman [at] sempervictus]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'nessus_rest'
+
+== Requirements
+
+== Install
+
+  $ gem install nessus_rest
+
+== Copyright
+
+Copyright (c) 2014 RageLtMan
+
+See LICENSE.txt for details.
