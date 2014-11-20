@@ -1,20 +1,20 @@
 = nessus_rest
 
-* {Homepage}[https://rubygems.org/gems/nessus_rest]
-* {Documentation}[http://rubydoc.info/gems/nessus_rest/frames]
-* {Email}[mailto:rageltman [at] sempervictus]
-
 == Description
 
-TODO: Description
+Interact with Nessus 6 REST API
 
 == Features
 
 == Examples
 
   require 'nessus_rest'
+  client = NessusREST::Client.new('https://nessus-host:8834/','UserName','Password')
+  client.list_users.map {|user| user['name']}
 
 == Requirements
+
+  Nestful gem, v1.0.7 or higher
 
 == Install
 
@@ -22,6 +22,6 @@ TODO: Description
 
 == Copyright
 
-Copyright (c) 2014 RageLtMan
+Copyright (c) 2014 SemperVictus LLC
 
 See LICENSE.txt for details.

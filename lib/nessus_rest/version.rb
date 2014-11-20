@@ -1,4 +1,4 @@
 module NessusRest
   # nessus_rest version
-  VERSION = "0.1.0"
+  VERSION = "0.0.9"
 end
